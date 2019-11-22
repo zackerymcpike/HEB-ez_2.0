@@ -2,17 +2,26 @@
     margin-bottom: 0px;
 }
 
+.page-CheckoutOrderDetails .card-body {
+    padding: 10px;
+}
+
 .page-CheckoutOrderDetails .card-img{
     max-width: 60px;
 }
-.page-CheckoutOrderDetails .edit{
-    max-width: 40px;
-}
+
 .page-CheckoutOrderDetails .card{
     align-items: center;
     flex-direction: row;
 }
-
+.page-CheckoutOrderDetails .card-img .edit{
+    max-width: 40px;
+    vertical-align: top;
+}
 .page-CheckoutOrderDetails .btn-outline-danger{
     max-width: 150px;
+}
+
+.page-CheckoutOrderDetails .card-text-sm{
+    font-size: 11px;
 }
