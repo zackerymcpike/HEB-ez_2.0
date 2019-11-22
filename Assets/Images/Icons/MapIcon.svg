@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="213" height="310" viewBox="0 0 213 310">
+  <defs>
+    <clipPath id="clip-iPhone_X_XS_11_Pro_1">
+      <rect width="213" height="310"/>
+    </clipPath>
+  </defs>
+  <g id="iPhone_X_XS_11_Pro_1" data-name="iPhone X/XS/11 Pro – 1" clip-path="url(#clip-iPhone_X_XS_11_Pro_1)">
+    <rect width="213" height="310" fill="#fff"/>
+    <g id="noun_Location_1246437" transform="translate(-19 -6)">
+      <g id="Group_52" data-name="Group 52" transform="translate(25 13)">
+        <path id="Path_37" data-name="Path 37" d="M125.124,965.362c-55.3,0-100.124,40.4-100.124,100.124,0,21.524,4.929,35.22,14.894,52.065l85.231,144.179,85.231-144.179c9.965-16.845,14.894-30.541,14.894-52.065C225.249,1005.765,180.422,965.362,125.124,965.362Zm0,56.07a44.055,44.055,0,1,1-44.055,44.055A44.055,44.055,0,0,1,125.124,1021.432Z" transform="translate(-25 -965.362)" fill="#dc2a27"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="82" height="83" viewBox="0 0 82 83">
+  <defs>
+    <clipPath id="clip-Edit_Icon">
+      <rect width="82" height="83"/>
+    </clipPath>
+  </defs>
+  <g id="Edit_Icon" data-name="Edit Icon" clip-path="url(#clip-Edit_Icon)">
+    <rect width="82" height="83" fill="#fff"/>
+    <g id="Group_406" data-name="Group 406" transform="translate(-1080.471 -3755)">
+      <path id="Path_642" data-name="Path 642" d="M156.1,73.575,197.711,32l13.4,13.4L169.533,86.977Z" transform="translate(935.872 3738.097)" fill="#424046"/>
+      <path id="Path_643" data-name="Path 643" d="M132.4,216.1l19.5-5.4-14.1-14.1Z" transform="translate(950.683 3617.897)" fill="#424046"/>
+      <path id="Path_644" data-name="Path 644" d="M333.315,2.753a9.394,9.394,0,0,0-13.239,0L316.1,6.729l17.627,17.627L337.7,20.38a9.394,9.394,0,0,0,0-13.239Z" transform="translate(818.548 3758.08)" fill="#424046"/>
+    </g>
+  </g>
+</svg>
