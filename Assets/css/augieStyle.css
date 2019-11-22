@@ -1,0 +1,52 @@
+
+#wrapper {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+.page-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #03ADC4;
+}
+
+.page-headerLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 125px;
+}
+
+.page-headerAccountLink {
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+    max-width: 50px;
+    padding-top: 10px;
+}
+
+.page-headerIconText {
+    color: white;
+    font: "Roboto";
+    padding-top: 5px;
+    text-align: justify;
+    width: 50px;
+}
+
+.page-headerAccount-icon {
+}
+
+.page-headerCartLink {
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+    max-width: 50px;
+    padding-top: 10px;
+}
+
+.page-headerCart-icon {
+
+}
