@@ -25,3 +25,9 @@
 .page-CheckoutOrderDetails .card-text-sm{
     font-size: 11px;
 }
+
+.page-CheckoutOrderDetails .btn-primary{
+    border-color:#dc3545;
+    max-width: 130px;
+
+}
