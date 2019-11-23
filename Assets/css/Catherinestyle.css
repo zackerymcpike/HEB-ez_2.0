@@ -29,5 +29,18 @@
 .page-CheckoutOrderDetails .btn-primary{
     border-color:#dc3545;
     max-width: 130px;
+}
+.page-CheckoutReviewOrder .card{
+    align-items: center;
+    flex-direction: row;
+}
 
+.page-CheckoutReviewOrder .editOrder{
+    max-width: 30px;
+    margin-left: 775px;
+}
+
+.page-CheckoutReviewOrder .wine {
+    max-height: 100px; max-width: 30px;
+   
 }
