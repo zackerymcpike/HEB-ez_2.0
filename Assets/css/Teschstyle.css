@@ -1,0 +1,47 @@
+.paddingTop20{
+    padding-top: 20px;
+}
+
+.productName{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+}
+
+.productWeight{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+
+.productPrice{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+
+.paddingTop40{
+    padding-top: 40px;
+}
+
+.Pcard-title{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+}
+
+.Pcard-subtitle{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Pcard-text{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+
+.paddingBottom30{
+    padding-bottom: 30px;
+}
+
+.blueLink{
+    color: blue;
+    font-style: italic
+}
