@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="215" height="215" viewBox="0 0 215 215">
+  <defs>
+    <clipPath id="clip-iPhone_X_XS_11_Pro_1">
+      <rect width="215" height="215"/>
+    </clipPath>
+  </defs>
+  <g id="iPhone_X_XS_11_Pro_1" data-name="iPhone X/XS/11 Pro – 1" clip-path="url(#clip-iPhone_X_XS_11_Pro_1)">
+    <rect width="215" height="215" fill="#fff"/>
+    <g id="Mask" transform="translate(6.5 8.025)">
+      <path id="Mask-2" data-name="Mask" d="M100.037,200.088A100.049,100.049,0,0,1,29.3,29.3,100.044,100.044,0,0,1,170.782,170.782,99.4,99.4,0,0,1,100.037,200.088Zm0-183.417A83.373,83.373,0,1,0,183.4,100.044,83.463,83.463,0,0,0,100.037,16.672ZM112.026,119.9h-56.7a8.636,8.636,0,1,1,0-17.272h39.42V42.984a8.64,8.64,0,1,1,17.279,0V119.9Z" transform="translate(1 -1)" fill="#dc2a27"/>
+    </g>
+  </g>
+</svg>
