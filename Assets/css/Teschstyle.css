@@ -1,3 +1,7 @@
+.paddingTop10{
+    padding-top: 10px;
+}
+
 .paddingTop20{
     padding-top: 20px;
 }
@@ -5,6 +9,8 @@
 .productName{
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
+    font-weight: bold;
+    padding-top: 10px;
 }
 
 .productWeight{
@@ -21,20 +27,25 @@
     padding-top: 40px;
 }
 
+.paddingTop30{
+    padding-top: 30px;
+}
+
 .Pcard-title{
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .Pcard-subtitle{
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;
-    font-size: 20px;
+    font-weight: 900;
+    font-size: 16px;
+    padding-top: 20px;
 }
 
 .Pcard-text{
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .paddingBottom30{
@@ -44,4 +55,14 @@
 .blueLink{
     color: blue;
     font-style: italic
+}
+
+.card .mb-3 {
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn-primary {
+    background-color: #DC2A27;
+    border-color: #DC2A27;
 }
