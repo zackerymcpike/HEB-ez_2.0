@@ -1,3 +1,20 @@
+
+/* <!-- ORDER DETAILS PAGE --> */
+
+.page-CheckoutOrderDetails h1.text-center {
+  
+}
+.page-CheckoutOrderDetails h4.card-title.col.d-flex.justify-content-center {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+}
+
+.page-CheckoutOrderDetails p.card-text.col.d-flex.justify-content-center{
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 22px;
+}
+
+
 .page-CheckoutOrderDetails .card-text{
     margin-bottom: 0px;
 }
@@ -27,9 +44,14 @@
 }
 
 .page-CheckoutOrderDetails .btn-primary{
-    border-color:#dc3545;
+    background-color: #DC2A27;
+    border-color: #DC2A27;
     max-width: 130px;
 }
+/* <!-- REVIEW ORDER PAGE --> */
+
+
+
 .page-CheckoutReviewOrder .card{
     align-items: center;
     flex-direction: row;
@@ -41,6 +63,28 @@
 }
 
 .page-CheckoutReviewOrder .wine {
-    max-height: 100px; max-width: 30px;
-   
+    max-height: 150px; max-width: 50px;
+}
+
+.page-CheckoutReviewOrder h1.text-center{
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+}
+
+.page-CheckoutReviewOrder h5.card-title.col.d-flex.align-left{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+}
+
+.page-CheckoutReviewOrder p.card-text.col.d-flex.align-left{
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 22px;
+}
+.page-CheckoutReviewOrder h5.align-left{
+    font-family:'Roboto', sans-serif;
+    font-size: 22px;
+}
+
+.teal {
+    color: teal;
 }
