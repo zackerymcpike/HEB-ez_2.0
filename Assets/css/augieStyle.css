@@ -70,7 +70,7 @@ Hero Image */
 }
 
 .headerButton:hover {
-    background-color: #B31F1D;
+    background-color: #FA0603;
 }
 
 .searchForm {
@@ -109,12 +109,12 @@ Hero Image */
 
 
 .a:hover {
-    color: #DC2A27!important;
+    color: #FA0603!important;
     text-decoration: none;
 }
 
 .nav-link:focus {
-    color: #DC2A27;
+    color: #FA0603;
     text-decoration: none;
 }
 
@@ -162,7 +162,7 @@ Hero Image */
 }
 
 .footerLinks:hover {
-    color: #DC2A27!important;
+    color: #FA0603!important;
     text-decoration: none;
 }
 
