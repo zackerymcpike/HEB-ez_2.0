@@ -1,9 +1,12 @@
 
-#wrapper {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
+/* Augie CSS File
+Header and Footer
+Navigation
+Hero Image */
+
+
+
+/* Header  */
 
 .page-header {
     padding-top: 20px;
@@ -24,33 +27,149 @@
     display: inline-block;
     vertical-align: top;
     float: left;
-    max-width: 50px;
-    padding-top: 10px;
-}
-
-.page-headerIconText {
-    color: white;
-    font: "Roboto";
-    padding-top: 5px;
-    text-align: justify;
     width: 50px;
-}
-
-.page-headerAccount-icon {
+    padding-top: 10px;
 }
 
 .page-headerCartLink {
     display: inline-block;
     vertical-align: top;
     float: right;
-    max-width: 50px;
     padding-top: 10px;
+    width: 50px;
+    text-decoration: none;
+
 }
 
-.page-headerCart-icon {
-
+.page-headerCartLink:hover {
+    color: white;
 }
+
+.page-headerAccountLink:hover {
+    color: white;
+}
+
+
+.page-headerIconText {
+    color: white;
+    font: "Roboto";
+    padding-top: 5px;
+    text-align: justify;
+    font-size: 1em;
+}
+
+
+/* Search and Location Forms */
+
+.form-inline {
+    padding-bottom: 20px;
+}
+
+.headerButton {
+    background-color: #DC2A27;
+}
+
+.headerButton:hover {
+    background-color: #FA0603;
+}
+
+.searchForm {
+    align-content: left;
+    margin-top: 30px;
+}
+
+.locationForm {
+    display: inline;
+    position: absolute;
+    right: 0px;
+}
+
+.pickupText {
+    color: white;
+    font: "Roboto";
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+
+/* Navigation */
+
+.a {
+    color: #000000;
+}
+
+.nav-link:focus, .nav-link:hover {
+    text-decoration: underline #DC2A27;
+}
+
+.navbar {
+    font-family: roboto;
+}
+
+
+.a:hover {
+    color: #FA0603!important;
+    text-decoration: none;
+}
+
+.nav-link:focus {
+    color: #FA0603;
+    text-decoration: none;
+}
+
+
+/* Hero Image  */
+
+.bgimage {
+    width:100%;
+    height: 500px;
+    background: url("../images/heroImage.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.heroText {
+    color: black;
+    font: "Roboto";
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+.heroTextTop {
+    padding-top: 50px;
+}
+
+.heroTextBottom {
+    padding-top: -20px;
+}
+
+
+/* Footer */
 
 .page-footer {
     background-color: #3E4551;
+}
+
+.footerHead {
+    color: white;
+}
+
+.footerLinks {
+    font-size: 1em;
+    color: white;
+}
+
+.footerLinks:hover {
+    color: #FA0603!important;
+    text-decoration: none;
+}
+
+.socialIcon {
+    color: white;
+}
+
+.footer-copyright {
+    color: white;
 }
