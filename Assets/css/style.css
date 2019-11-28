@@ -1,0 +1,129 @@
+/* <!-- GLOBAL STYLES-->
+Catherine 11/23/19:
+Global font set to 16 px- please use "rem" to reference (NOT "em").
+Text & Headers (h1-h6) set in accordance with Style Tile.
+Fonts used Roboto and Source Sans Pro.
+Colors from Style Tile set under ROOT (3 reds, 3 teals and 2 grays). */
+
+
+html {
+    font-size: 16px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: black;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: black;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.75rem;
+    color: black;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.375rem;
+    color: black;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+    color: black;
+}
+
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: black;
+}
+
+p {
+    font-family:  'Source Sans Pro', sans-serif;
+    font-size: 1.52rem;
+    color: black;
+}
+
+:root {
+    --red: #DC2A27;
+    --deepRed: #B31F1D;
+    --brightRed: #FA0603;
+    --teal: #03ADC4;
+    --deepTeal:#048596;
+    --brightTeal:#06D1EB;
+    --darkGrey: #424046;
+    --lightGrey: #D0D0D0;
+}
+
+
+/* <!-- BUTTONS --> */
+
+
+/* <!-- PRIMARY BUTTON (DESKTOP & MOBILE) --> */
+.btn-primary {
+    background-color: #DC2A27;
+    border-color: #DC2A27;
+    width: 300px;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.375rem;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #B31F1D;
+    border-color: #B31F1D;
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color:#FA0603;
+    border-color:#FA0603;
+}
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: none;
+}
+
+.btn-primary.disabled {
+    background-color: #D0D0D0;
+    border-color: #D0D0D0;
+}
+
+/* <!-- END PRIMARY BUTTON (DESKTOP) --> */
+
+
+
+
+
+
+/* <!-- MEDIA QUERIES --> */
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up)
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+/* @media (min-width: @screen-md-min) { ... } */
+
+/* Large devices (large desktops, 1200px and up) */
+/* @media (min-width: @screen-lg-min) { ... } */
+
+/* We occasionally expand on these media queries to include a max-width to limit CSS to a narrower set of devices */
+/* @media (max-width: @screen-xs-max) { ... }
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+@media (min-width: @screen-lg-min) { ... } */

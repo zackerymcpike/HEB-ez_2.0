@@ -10,6 +10,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="Assets/css/Catherinestyle.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Assets/css/style.css">
 
     <title>Checkout</title>
   </head>
@@ -24,13 +27,19 @@
        
         <div class="col-md-8" style="margin-right: 65px;">
             <div class="card-body">
-            <h4 class="card-title col d-flex justify-content-center">Downtown Hub</h4>
-            <p class="card-text col d-flex justify-content-center">123 Anywhere Street</p>
-            <p class="card-text col d-flex justify-content-center" style="margin-bottom: 20px;">Austin, TX 78701</p>
+            <div class= "col text-align-center">
+              <div class= "card-title">
+            <h2>Downtown Hub</h2>
+            </div>
+            <div class="card-text">
+            <p>123 Anywhere Street</p>
+            <p>Austin, TX 78701</p>
+            </div>
             <div class="getDirections col d-flex justify-content-center">
             <button type="button" class="btn btn-outline-danger">Get Directions</button>
           </div>
           </div>
+        </div>
         </div>
           <img src="Assets/Images/Icons/editIcon.svg" class="card-img edit d-flex align-items-start flex-column p-2 mb-auto" alt="Edit Icon">
         </div>
@@ -68,7 +77,7 @@
       <p class="card-text col d-flex justify-content-center" style="margin-bottom: 20px;">Phone: 512-555-1000</p>
       <h5 class="card-title col d-flex justify-content-center">Get text alerts for your H-E-B ez order</h5>
     </div>
-    <p class="card-text-sm col d-flex justify-content-center">By entering my mobile phone number, I consent to receive EZ order alerts via text message pursuant to the Full Terms and Privacy Policy. Message & data rates may apply. Message frequency may vary. Text STOP to 99147 to cancel.  Text HELP to 99147 or call Customer Service at 1-855-803-0611.</p>
+    <p class="card-text-sm justify-content-center">By entering my mobile phone number, I consent to receive EZ order alerts via text message pursuant to the <a href="#">Full Terms</a> and <a href="#">Privacy Policy</a>. Message & data rates may apply. Message frequency may vary. Text STOP to 99147 to cancel.  Text HELP to 99147 or call Customer Service at <a href="#">1-855-803-0611</a>.</p>
 
   </div>
     <img src="Assets/Images/Icons/editIcon.svg" class="card-img edit d-flex align-items-start flex-column p-2 mb-auto" alt="Edit Icon">
@@ -77,8 +86,8 @@
 
 <!-- Next Button --> 
 
-<div class="d-flex align-items-end flex-column" style="margin-right: 250px;">
-<button type="button" class="btn btn-primary bg-danger" data-toggle="button" aria-pressed="false" autocomplete="off">
+<div class="float-right" style="margin-right: 250px;">
+<button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
       Next <i class="fas fa-arrow-right" style="margin-left: 20px;"></i>
     </button>
   </div>
