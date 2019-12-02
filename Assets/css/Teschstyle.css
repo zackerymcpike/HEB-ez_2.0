@@ -100,3 +100,23 @@
     padding-left: 0px;
     padding-right: 0px;
 }
+
+.miniItem{
+    padding-bottom: 20px;
+}
+
+.paddingBottom50{
+    padding-bottom: 50px;
+}
+
+.noBorder{
+    border: none;
+}
+
+.mediumBlue{
+    color: #03ADC4;
+}
+
+.SSP{
+    font-family: 'Source Sans Pro', sans-serif;;
+}
