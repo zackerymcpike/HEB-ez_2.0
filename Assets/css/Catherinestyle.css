@@ -84,6 +84,15 @@
     font-size: 22px;
 }
 
+.page-CheckoutReviewOrder .carditem{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.page-CheckoutReviewOrder .qty {
+    margin-left: auto;
+}
+
 .teal {
     color: teal;
 }
