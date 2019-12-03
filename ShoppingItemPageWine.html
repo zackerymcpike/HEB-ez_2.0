@@ -4,18 +4,90 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Item Detail Page - Wine</title>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="Assets/css/Teschstyle.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro&display=swap" rel="stylesheet">
-
-
-    <title>Item Detail Page - Wine</title>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <link href="https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="Assets/css/Teschstyle.css">
+     <link rel="stylesheet" href="Assets/css/style.css">
+   
+     <!--  Font Awesome JS -->
+     <script src="https://kit.fontawesome.com/e6c17cc9f9.js" crossorigin="anonymous"></script>
+     
   </head>
+
   <body class="page-ShoppingItemPageMeal">
 
-      <div class="card mb-3 mx-auto" style="width: 85%;">
+
+      <header class="page-header py-3">
+          <div class="container">
+              <div class="row flex-nowrap justify-content-between align-items-center">
+                <div class="col-4 pt-1">
+                    <a href="Account.html" class="page-headerAccountLink">
+                        <img src="Assets/images/account-icon.svg" class="page-headerAccount-icon" alt="Account Icon">
+                        <p class="page-headerIconText">Account</p>
+                    </a>
+                </div>
+                <div class="col-6 text-center page-headerLogo">
+                    <a href="index.html">
+                        <img src="Assets/images/hebezLogo.svg" class="page-headerLogo" alt="HEB ez Logo">
+                    </a> 
+                </div>
+                <div class="col-4 pt-1">
+                  <a href="ShoppingCart.html" class="page-headerCartLink">
+                      <img src="Assets/images/cartEmpty-icon.svg" class="page-headerCart-icon" alt="Cart Icon">
+                      <p class="page-headerIconText text-center">Cart</p>
+                  </a> 
+                </div>
+              </div>
+          </div>
+              <div class="container headerForm">
+                <div class="row">
+                  <div class="col-md-6 searchForm">
+                    <form class="form-inline mt-2 mt-md-0">
+                      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                      <button type="button" class="btn btn-success headerButton">Search</button>
+                    </form>
+                  </div>
+                  <div class="col-md-6">
+                    <form class="form-inline mt-2 mt-md-0 locationForm">
+                      <p class="pickupText">Pickup Location</p>
+                      <input class="form-control mr-sm-2" type="text" placeholder="Downtown" aria-label="Downtown">
+                      <button type="button" class="btn btn-success headerButton">Change</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+      </header>
+
+          <!-- Navigation -->
+
+          <div>
+              <nav class="navbar navbar-light bg-light">
+                  <div class="container">
+                  <nav  class=" nav d-flex justify-content-between row flex-nowrap align-items-center">
+                        <a class="nav-link a a:hover" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Home
+                              </a>
+                        <a class="nav-link a" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Departments
+                              </a>
+                        <a class="nav-link a" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Coupons
+                              </a>
+                        <a class="nav-link a" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Recently Purchased
+                              </a>
+                  </nav>
+                </div>
+              </nav>
+          </div>
+
+
+<!--Wine Big Pic and Details-->
+
+      <div class="card mb-3 mx-auto noBorder" style="width: 85%;">
           <div class="row no-gutters">
             <div class="col-md-6">
               <img src="Assets/Images/products/WineRecWhitespace2.jpg" class="card-img" alt="...">
@@ -25,7 +97,23 @@
                 <h5 class="card-title productName font-weight-bold paddingTop10">Noble Vines 337 Cabernet Sauvignon</h5>
                 <p class="card-text productWeight"><small class="text-muted">750 mL</small></p>
                 <p class="card-text productPrice paddingBottom30"><span class="font-weight-bold">Regular: $11.98 each</span>  ($0.48/fl oz)</p>
-                <a href="#" class="btn btn-primary">Add to Cart</a>
+                
+                <!--Quantity Component-->
+            <form>
+              <div class="form-group">
+                <label for="exampleFormControlSelect1">Quantity</label>
+                <select class="form-control" id="quantityFormField">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+            </form>
+                <!-- Primary Button (Desktop & Mobile)-->
+                <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                    Add to Cart</button>
               </div>
             </div>
           </div>
@@ -38,12 +126,174 @@
               <p class="Pcard-text">Noble Vines 337 Cabernet Sauvignon exhibits lively aromas of black cherry, ripe currant, fresh herbs and lightly roasted coffee. Supple tannins and balanced acidity support core flavors of blackberry, black cherry and toasty oak, intertwined with spicy black pepper accents. It is rich and complex, and so may be enjoyed on its own or with a range of cuisine. We particularly suggest herb roasted pork loin, baked chicken or barbecued steak and sautéed mushrooms.</p>
               
               <h6 class="Pcard-subtitle mb-2">Safety Warning</h6>
-              <p class="Pcard-text">Actual product packaging and materials may contain more or different information than that shown on our website. You should not rely solely on the information presented here. Always read labels, warnings and directions before using or consuming a product. <span class="blueLink">View full Product Information Disclaimer</span></p>
+              <p class="Pcard-text">Actual product packaging and materials may contain more or different information than that shown on our website. You should not rely solely on the information presented here. Always read labels, warnings and directions before using or consuming a product. <span class="mediumBlue font-italic">View full Product Information Disclaimer</span></p>
             </div>
           </div>
 
       </div>
     </div>
+
+
+ <!--Often Bought With-->
+
+ <div class="card mx-auto noBorder" style="width: 85%; margin-bottom: 15px;">
+    <div class="card-body">
+        
+      <div class="row mx-auto miniItems" style="width: 100%;">    
+        <div class="col-md-6">
+              <h3 class="SubCategoryTitle">Often Bought With</h3>
+            </div>
+            <div class="col-md-6">
+                <p class="text-right mediumBlue SSP">See more</p>
+              </div> 
+          </div>
+
+          
+          <div class="row miniItems" style="width: 100%;">
+              <div class="col-md-3 col-sm-6 miniItem">
+                <div class="card justify-content-center" style="width: 10rem; margin-left: auto; margin-right: auto;">
+                  <img class="card-img-top" src="Assets/Images/products/MealIcon.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">$11.99 each</h5>
+                    <p class="card-text">H-E-B Meal Strip Steak w/ Asparagus and Potatoes</p>
+                    <p class="card-text text-muted">Avg. 1.0 lb</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-sm-6 miniItem">
+                <div class="card" style="width: 10rem; margin-left: auto; margin-right: auto;">
+                  <img class="card-img-top" src="Assets/Images/products/MealIcon.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">$11.99 each</h5>
+                    <p class="card-text">H-E-B Meal Strip Steak w/ Asparagus and Potatoes</p>
+                    <p class="card-text text-muted">Avg. 1.0 lb</p>
+                  </div>
+                </div>
+              </div>
+              
+                  <div class="col-md-3 col-sm-6 miniItem">
+                    <div class="card" style="width: 10rem; margin-left: auto; margin-right: auto;">
+                      <img class="card-img-top" src="Assets/Images/products/MealIcon.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">$11.99 each</h5>
+                        <p class="card-text">H-E-B Meal Strip Steak w/ Asparagus and Potatoes</p>
+                        <p class="card-text text-muted">Avg. 1.0 lb</p>
+                      </div>
+                    </div>
+                  </div>
+
+                <div class="col-md-3 col-sm-6 miniItem">
+                  <div class="card" style="width: 10rem; margin-left: auto; margin-right: auto;">
+                    <img class="card-img-top" src="Assets/Images/products/MealIcon.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">$11.99 each</h5>
+                      <p class="card-text">H-E-B Meal Strip Steak w/ Asparagus and Potatoes</p>
+                      <p class="card-text text-muted">Avg. 1.0 lb</p>
+                    </div>
+                  </div>
+                </div>
+
+    </div>
+</div>
+</div> 
+
+
+
+<!-- Footer -->
+<footer class="page-footer font-small stylish-color-dark pt-4">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-4 mx-auto">
+  
+          <!-- Content -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4 footerHead">Company</h5>
+          <ul class="list-unstyled footerLinks">
+              <li>
+                <a href="#!" class="footerLinks">About Us</a>
+              </li>
+              <li>
+                <a href="#!" class="footerLinks">Hub Locations</a>
+              </li>
+              <li>
+                <a href="#!" class="footerLinks">Gift Cards</a>
+              </li>
+              <li>
+                <a href="#!" class="footerLinks">Careers</a>
+              </li>
+            </ul>
+  
+        </div>
+        
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+  
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4 footerHead">Customer Service</h5>
+  
+          <ul class="list-unstyled footerLinks">
+            <li>
+              <a href="#!" class="footerLinks">Contact Us</a>
+            </li>
+            <li>
+              <a href="#!" class="footerLinks">Feedback</a>
+            </li>
+            <li>
+              <a href="#!" class="footerLinks">Help and FAQ</a>
+            </li>
+            <li>
+              <a href="#!" class="footerLinks">Refund Policy</a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+
+  
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item socialIcon">
+        <a class="btn-floating btn-fb mx-1">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+      <li class="list-inline-item socialIcon">
+        <a class="btn-floating btn-tw mx-1">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      <li class="list-inline-item socialIcon">
+        <a class="btn-floating btn-dribbble mx-1">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </li>
+    </ul>
+    <!-- Social buttons -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">
+      © 2019 Copyright: The HEEBs
+    </div>
+    <!-- Copyright -->
+  
+  </footer>   
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
