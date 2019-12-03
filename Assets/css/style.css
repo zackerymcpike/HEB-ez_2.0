@@ -270,6 +270,37 @@ p {
     color: white;
 }
 
+/* <!-- ONBOARDING CODING --> */
+.page-onboarding1 .bg-light {
+    background-color: #03ADC4 !important;
+}
+
+.page-onboarding1 .btn-primary {
+    background-color: #DC2A27;
+    border-color: #DC2A27;
+}
+
+.page-onboarding1 .headers {
+    display: flex;
+    justify-content: center;
+}
+
+.page-onboarding1 .card {
+    border: 2px solid #03ADC4;
+}
+
+.page-onboarding1 .passwordlist {
+    font-size: 12px !important;
+}
+
+.page-onboarding1 .registerdiv {
+    margin-bottom: 50px;
+}
+/* <!-- END ONBOARDING CODING --> */
+
+
+
+
 /* <!-- MEDIA QUERIES --> */
 
 /* Extra small devices (phones, less than 768px) */
