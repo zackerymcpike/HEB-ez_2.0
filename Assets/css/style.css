@@ -112,6 +112,7 @@ p {
 
 .CategoryTitle {
     font-size: 26px;
+    padding-bottom: 10px;
 }
 
 .foodItemRow {
@@ -203,9 +204,9 @@ p {
 }
 
 .locationForm {
-    display: inline;
+    /* display: inline;
     position: absolute;
-    right: 0px;
+    right: 0px; */
 }
 
 .pickupText {
