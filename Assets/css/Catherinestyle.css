@@ -107,6 +107,12 @@
     margin-left: auto;
 }
 
+.page-CheckoutReviewOrder .button1 {
+    display: flex;
+    align-items: flex-end;
+    margin-left: auto;
+}
+
 .teal {
     color: teal;
 }
