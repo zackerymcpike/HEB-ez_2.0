@@ -67,10 +67,18 @@ Hero Image */
 
 .headerButton {
     background-color: #DC2A27;
+    border-color:#FA0603;
+
 }
+
+/* .headerForm {
+    margin: auto;
+} */
 
 .headerButton:hover {
     background-color: #FA0603;
+    border-color:#FA0603;
+
 }
 
 .searchForm {
@@ -79,10 +87,9 @@ Hero Image */
 }
 
 .locationForm {
-    display: inline;
-    position: absolute;
-    right: 0px;
-}
+    align-content: right;
+    margin-top: 30px;
+}  
 
 .pickupText {
     color: white;
@@ -111,11 +118,15 @@ Hero Image */
 .a:hover {
     color: #FA0603!important;
     text-decoration: none;
+    border-color:#FA0603;
+
 }
 
 .nav-link:focus {
     color: #FA0603;
     text-decoration: none;
+    border-color:#FA0603;
+
 }
 
 
@@ -143,6 +154,31 @@ Hero Image */
 
 .heroTextBottom {
     padding-top: -20px;
+}
+
+
+/* Items Lists */
+
+.homeCategory {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.CategoryTitle {
+    font-size: 26px;
+}
+
+.foodItemRow {
+    margin-left: 50px;
+    margin-top: -20px;  
+}
+
+.foodCard {
+    margin-right: 15px;
+    margin-bottom: 20px;
+    max-width: 230px;
 }
 
 

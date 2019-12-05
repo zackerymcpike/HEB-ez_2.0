@@ -1,15 +1,8 @@
-.page-onboarding1 .bg-light {
-    background-color: #03ADC4 !important;
-}
+
 
 .page-onboarding1 .btn-primary {
     background-color: #DC2A27;
     border-color: #DC2A27;
-}
-
-.page-onboarding1 .headers {
-    display: flex;
-    justify-content: center;
 }
 
 .page-onboarding1 .card {

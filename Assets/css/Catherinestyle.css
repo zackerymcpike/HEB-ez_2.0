@@ -64,6 +64,7 @@
 .page-CheckoutReviewOrder .card{
     align-items: center;
     flex-direction: row;
+    padding: 15px 0 15px 15px;
 }
 
 .page-CheckoutReviewOrder .editOrder{
@@ -91,6 +92,15 @@
 .page-CheckoutReviewOrder h5.align-left{
     font-family:'Roboto', sans-serif;
     font-size: 22px;
+}
+
+.page-CheckoutReviewOrder .carditem{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.page-CheckoutReviewOrder .qty {
+    margin-left: auto;
 }
 
 .teal {
