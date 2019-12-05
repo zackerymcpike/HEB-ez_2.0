@@ -50,7 +50,7 @@ h6 {
 
 p {
     font-family:  'Source Sans Pro', sans-serif;
-    font-size: 1.52rem;
+    font-size: 1.25rem;
     color: black;
 }
 
@@ -339,6 +339,11 @@ p {
 }
 /* <!-- END ONBOARDING CODING --> */
 
+
+/* <!-- CHECKOUT CODING --> */
+.page-CheckoutOrderDetails .stepOne h2 {
+    color:#DC2A27;
+}
 
 
 
