@@ -133,4 +133,16 @@
     align-items: center;
 }
 
+.page-CheckoutAddCard .icon {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.page-CheckoutAddCard .btn {
+    font-size: 2rem;
+}
+
+.page-CheckoutAddCard .btn-link {
+    color: black;
+}
 
