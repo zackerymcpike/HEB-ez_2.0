@@ -1,5 +1,12 @@
 
 
+
+@media screen only and (max-width: 575px){
+    .page-onboarding1 .card {
+        width: 12rem;
+    }
+}
+
 .page-onboarding1 .btn-primary {
     background-color: #DC2A27;
     border-color: #DC2A27;
