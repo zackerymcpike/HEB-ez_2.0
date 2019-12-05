@@ -1,10 +1,14 @@
 
+/* <!-- PAYMENT METHOD PAGE --> */
+
+
 /* <!-- ORDER DETAILS PAGE --> */
 
-.page-CheckoutOrderDetails h1.text-center {
-  
-}
-.page-CheckoutOrderDetails h4.card-title.col.d-flex.justify-content-center {
+/* .page-CheckoutOrderDetails .stepOne h3 {
+    color:#DC2A27;
+} */
+
+/* .page-CheckoutOrderDetails h4.card-title.col.d-flex.justify-content-center {
     font-family: 'Roboto', sans-serif;
     font-size: 28px;
 }
@@ -12,7 +16,7 @@
 .page-CheckoutOrderDetails p.card-text.col.d-flex.justify-content-center{
     font-family:'Source Sans Pro', sans-serif;
     font-size: 22px;
-}
+} */
 
 
 .page-CheckoutOrderDetails .card-text{
@@ -24,7 +28,7 @@
 }
 
 .page-CheckoutOrderDetails .card-img{
-    max-width: 60px;
+    max-width: 40px;
 }
 
 .page-CheckoutOrderDetails .card{
@@ -106,3 +110,39 @@
 .teal {
     color: teal;
 }
+
+.page-CheckoutAddCard .card1 {
+    border: 2px solid #03ADC4;
+}
+
+.page-CheckoutAddCard .registerdiv {
+    margin-bottom: 50px;
+}
+
+.page-CheckoutAddCard .btn-primary {
+    background-color: #DC2A27;
+    border-color: #DC2A27;
+}
+
+.page-CheckoutAddCard .headers {
+    display: flex;
+    justify-content: center;
+}
+.page-CheckoutAddCard .addcard {
+    display: flex;
+    align-items: center;
+}
+
+.page-CheckoutAddCard .icon {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.page-CheckoutAddCard .btn {
+    font-size: 2rem;
+}
+
+.page-CheckoutAddCard .btn-link {
+    color: black;
+}
+

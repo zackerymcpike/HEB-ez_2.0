@@ -43,24 +43,23 @@
           </div>
               <div class="container headerForm">
                 <div class="row">
-                  <div class="col-md searchForm">
+                  <div class="col-md-auto searchForm">
                     <form class="form-inline mt-2 mt-md-0">
                       <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
                       <button type="button" class="btn btn-success headerButton">Search</button>
                     </form>
                   </div>
-                  <div class="col-md align-left">
-                    <form class="form-inline mt-2 mt-md-0 locationForm">
-                      <p class="pickupText">Pickup Location</p>
-                      <input class="form-control mr-sm-2" type="text" placeholder="Downtown" aria-label="Downtown">
-                      <button type="button" class="btn btn-success headerButton">Change</button>
-                    </form>
-                  </div>
+                  <div class="col-md-auto locationForm">
+                      <form class="form-inline mt-2 mt-md-0">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Pickup Location" aria-label="Search">
+                        <button type="button" class="btn btn-success headerButton">Search</button>
+                      </form>
+                    </div>
                 </div>
               </div>
       </header>
 
-          <!-- Navigation -->
+          <!-- Navigation
 
           <div>
               <nav class="navbar navbar-light bg-light">
@@ -81,37 +80,45 @@
                   </nav>
                 </div>
               </nav>
-          </div>
+          </div> -->
     
 
-      <h1 class="text-center" style="margin-bottom: 40px;">Checkout</h1>
+<!-- MAIN SECTION -->
 
-<!-- Checkout Location Card -->   
+<h1 class="text-center" style="margin-bottom: 40px;">Checkout</h1>
 
-    <div class="card mb-3 mx-auto" style="max-width: 700px;">
-       
-          <img src="Assets/Images/Icons/mapIcon.svg" class="card-img" alt="Map Icon" style="margin-left: 50px;">
-       
-        <div class="col-md-8" style="margin-right: 65px;">
+<!-- Step One Card -->
+<div class="stepOne">
+<h3>1) Confirm Pickup Details</h3>
+    <div class="card mx-auto" style="max-width: 1300px;">
+       <!-- <div class="row">
+          <img src="Assets/Images/Icons/mapIcon.svg" class="card-img" alt="Map Icon" style="margin-left: 30px;">
+          <img src="Assets/Images/Icons/timeIcon.svg" class="card-img" alt="Time Icon" style="margin-left: 30px;">
+        </div> -->
+          <div class="col-md-8" style="margin-right: 65px;">
             <div class="card-body">
-            <div class= "col text-align-center">
-              <div class= "card-title">
+              <div class="row">
+              <div class= "card-title col">
             <h2>Downtown Hub</h2>
-            </div>
-            <div class="card-text">
-            <p>123 Anywhere Street</p>
-            <p>Austin, TX 78701</p>
-            </div>
-            <div class="getDirections col d-flex justify-content-center">
+            <h2>PickupTime</h2>
+          </div>
+          <div class="col">
+            <p>123 Anywhere Street, Austin, TX 78701</p>
+            <p>6:00 - 6:30 P.M. on December 9, 2019</p>
+          </div>
+        </div>
+        </div>
+        </div>
+        <div class="getDirections col d-flex justify-content-center">
             <button type="button" class="btn btn-outline-danger">Get Directions</button>
           </div>
-          </div>
-        </div>
-        </div>
-          <img src="Assets/Images/Icons/editIcon.svg" class="card-img edit d-flex align-items-start flex-column p-2 mb-auto" alt="Edit Icon">
-        </div>
 
-<!-- END: Checkout Location Card -->   
+      </div>
+        </div>
+        </div>
+        </div>
+  </div>
+<!-- END: Step One Card -->   
 
 <!-- Checkout Time Card -->  
 <div class="card mb-3 mx-auto" style="max-width: 700px;">
@@ -125,7 +132,6 @@
       <p class="card-text col d-flex justify-content-center">6:00 P.M. - 6:30 P.M.</p>
     </div>
   </div>
-    <img src="Assets/Images/Icons/editIcon.svg" class="card-img edit d-flex align-items-start flex-column p-2 mb-auto" alt="Edit Icon">
   </div>
 
 <!-- END Checkout Time Card -->  
@@ -144,22 +150,71 @@
       <p class="card-text col d-flex justify-content-center" style="margin-bottom: 20px;">Phone: 512-555-1000</p>
       <h5 class="card-title col d-flex justify-content-center">Get text alerts for your H-E-B ez order</h5>
     </div>
-    <p class="card-text-sm justify-content-center">By entering my mobile phone number, I consent to receive EZ order alerts via text message pursuant to the <a href="#">Full Terms</a> and <a href="#">Privacy Policy</a>. Message & data rates may apply. Message frequency may vary. Text STOP to 99147 to cancel.  Text HELP to 99147 or call Customer Service at <a href="#">1-855-803-0611</a>.</p>
+    <p class="card-text-sm justify-content-center">By entering my mobile phone number, I consent to receive EZ order alerts via text message pursuant to the Full Terms and Privacy Policy. Message & data rates may apply. Message frequency may vary. Text STOP to 99147 to cancel.  Text HELP to 99147 or call Customer Service at 1-855-803-0611.</p>
 
   </div>
-    <img src="Assets/Images/Icons/editIcon.svg" class="card-img edit d-flex align-items-start flex-column p-2 mb-auto" alt="Edit Icon">
   </div>
 <!-- END Checkout Contact Card -->  
 
+<div class="card mb-3 mx-auto" style="max-width: 700px;">
+       
+  <div class="accordion" id="accordionExample">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0">
+          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Collapsible Group Item #1
+          </button>
+        </h2>
+      </div>
+  
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Collapsible Group Item #2
+          </button>
+        </h2>
+      </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+        <div class="card-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingThree">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Collapsible Group Item #3
+          </button>
+        </h2>
+      </div>
+      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+        <div class="card-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 <!-- Next Button --> 
 
-<div class="float-right" style="margin-right: 250px;">
+<!-- <div class="float-right" style="margin-right: 250px;">
 <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
       Next <i class="fas fa-arrow-right" style="margin-left: 20px;"></i>
     </button>
-  </div>
+  </div> -->
 
-<!-- END Next Button --> 
+<!-- END Next Button -->
 
  <!-- Footer -->
  <footer class="page-footer font-small stylish-color-dark pt-4">
