@@ -48,6 +48,15 @@
     border-color: #DC2A27;
     max-width: 130px;
 }
+
+
+@media only screen and (max-width: 766px){
+    .page-header {
+        height: 389px; 
+    }
+}
+
+
 /* <!-- REVIEW ORDER PAGE --> */
 
 
