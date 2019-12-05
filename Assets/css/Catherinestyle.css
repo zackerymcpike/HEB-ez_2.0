@@ -107,42 +107,50 @@
     margin-left: auto;
 }
 
+.page-CheckoutReviewOrder .button1 {
+    display: flex;
+    align-items: flex-end;
+    margin-left: auto;
+}
+
 .teal {
     color: teal;
 }
 
-.page-CheckoutAddCard .card1 {
+.page-CheckoutOrderDetails .card1 {
     border: 2px solid #03ADC4;
 }
 
-.page-CheckoutAddCard .registerdiv {
+.page-CheckoutOrderDetails .registerdiv {
     margin-bottom: 50px;
 }
 
-.page-CheckoutAddCard .btn-primary {
+.page-CheckoutOrderDetails .btn-primary {
     background-color: #DC2A27;
     border-color: #DC2A27;
 }
 
-.page-CheckoutAddCard .headers {
+.page-CheckoutOrderDetails .headers {
     display: flex;
     justify-content: center;
 }
-.page-CheckoutAddCard .addcard {
+.page-CheckoutOrderDetails .addcard {
     display: flex;
     align-items: center;
 }
 
-.page-CheckoutAddCard .icon {
+.page-CheckoutOrderDetails .icon {
     padding-right: 15px;
     padding-left: 15px;
 }
 
-.page-CheckoutAddCard .btn {
+/* .page-CheckoutOrderDetails .btn {
     font-size: 2rem;
-}
+} */
 
-.page-CheckoutAddCard .btn-link {
+.page-CheckoutOrderDetails .btn-link {
     color: black;
 }
 
+.page-CheckoutOrderDetails .card-header {
+    background-color: white;
