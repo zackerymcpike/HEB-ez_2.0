@@ -191,16 +191,33 @@ p {
 
 .headerButton {
     background-color: #DC2A27;
+    border-color:#FA0603;
+
 }
 
 .headerButton:hover {
     background-color: #FA0603;
+    border-color:#FA0603;
 }
 
 .searchForm {
-    align-content: left;
+    margin-right: auto;
     margin-top: 30px;
 }
+
+.locationForm {
+    margin-left: auto;
+    margin-top: 30px;
+}  
+
+.pickupText {
+    color: white;
+    font: "Roboto";
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
 
 .locationForm {
     /* display: inline;
