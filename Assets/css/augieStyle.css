@@ -71,23 +71,18 @@ Hero Image */
 
 }
 
-/* .headerForm {
-    margin: auto;
-} */
-
 .headerButton:hover {
     background-color: #FA0603;
     border-color:#FA0603;
-
 }
 
 .searchForm {
-    align-content: left;
+    margin-right: auto;
     margin-top: 30px;
 }
 
 .locationForm {
-    align-content: right;
+    margin-left: auto;
     margin-top: 30px;
 }  
 
@@ -140,6 +135,12 @@ Hero Image */
     background-position: center;
 }
 
+@media only screen and (max-width: 768px){
+    .bgimage {
+        width: auto;
+        height: 500px;
+    }
+}
 .heroText {
     color: black;
     font: "Roboto";
@@ -160,7 +161,8 @@ Hero Image */
 /* Items Lists */
 
 .homeCategory {
-    padding-left: 50px;
+    margin: 0;
+    padding-left: 100px;
     padding-right: 50px;
     padding-top: 50px;
     padding-bottom: 20px;
@@ -172,13 +174,14 @@ Hero Image */
 
 .foodItemRow {
     margin-left: 50px;
-    margin-top: -20px;  
+    /* margin-top: -20px;   */
 }
 
 .foodCard {
     margin-right: 15px;
     margin-bottom: 20px;
     max-width: 230px;
+
 }
 
 
