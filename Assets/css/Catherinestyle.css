@@ -144,9 +144,10 @@
     padding-left: 15px;
 }
 
-/* .page-CheckoutOrderDetails .btn {
+.page-CheckoutOrderDetails .btn {
+.page-CheckoutOrderDetails .btn2 {
     font-size: 2rem;
-} */
+}
 
 .page-CheckoutOrderDetails .btn-link {
     color:#007bff;
@@ -157,6 +158,52 @@
 }
 
 
-.page-CheckoutOrderDetailsCardAdded .btn-link {
-    color:#007bff;
+.page-CheckoutOrderDetails .button1 {
+    display: flex;
+    align-items: flex-end;
+    margin-left: auto;
 }
+
+
+.page-CheckoutOrderDetails .card{
+    align-items: center;
+    flex-direction: row;
+    padding: 15px 0 15px 15px;
+}
+
+.page-CheckoutOrderDetails .editOrder{
+    max-width: 30px;
+}
+
+.page-CheckoutOrderDetails .wine {
+    max-height: 150px; max-width: 50px;
+}
+
+.page-CheckoutOrderDetails h1.text-center{
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+}
+
+.page-CheckoutOrderDetails h5.card-title.col.d-flex.align-left{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+}
+
+.page-CheckoutOrderDetails p.card-text.col.d-flex.align-left{
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 22px;
+}
+.page-CheckoutOrderDetails h5.align-left{
+    font-family:'Roboto', sans-serif;
+    font-size: 22px;
+}
+
+.page-CheckoutOrderDetails .carditem{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.page-CheckoutOrderDetails .qty {
+    margin-left: auto;
+}
+
