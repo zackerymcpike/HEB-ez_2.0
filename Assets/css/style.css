@@ -347,6 +347,14 @@ p {
 
 
 
+
+/* <!-- CHECKOUT CONFIRMATION CODE --> */
+
+.page-CheckoutOrderConfirmation h2 {
+    text-align: center;
+}
+
+
 /* <!-- MEDIA QUERIES --> */
 
 /* Extra small devices (phones, less than 768px) */
