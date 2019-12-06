@@ -100,6 +100,7 @@ p {
     border-color: #D0D0D0;
 }
 
+
 /* Home Page Items Lists - AUGIE */
 
 .homeCategory {
@@ -192,6 +193,9 @@ p {
 .headerButton {
     background-color: #DC2A27;
     border-color:#FA0603;
+    width: 74px;
+    height: 38px;
+    font-size: 16px;
 
 }
 
