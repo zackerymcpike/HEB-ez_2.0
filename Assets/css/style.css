@@ -353,7 +353,27 @@ p {
 .page-CheckoutOrderConfirmation h2 {
     text-align: center;
 }
+.page-CheckoutOrderConfirmation .card2 {
+    border: none;
+}
 
+.page-CheckoutOrderConfirmation h3 {
+    color:#DC2A27;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.page-CheckoutOrderConfirmation h4 {
+    text-align: center;
+}
+
+.page-CheckoutOrderConfirmation p {
+    text-align: center;
+}
+
+.page-CheckoutOrderConfirmation .row {
+    vertical-align: baseline;
+}
 
 /* <!-- MEDIA QUERIES --> */
 
