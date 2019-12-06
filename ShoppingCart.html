@@ -4,20 +4,287 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Hello, world!</title>
+    <title>Checkout</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Assets/css/Catherinestyle.css">
     <link rel="stylesheet" href="Assets/css/style.css">
 
     <!-- Font Awesome JS -->
     <script src="https://kit.fontawesome.com/e6c17cc9f9.js" crossorigin="anonymous"></script>
 
-
+    
   </head>
-  <body class="page-ShoppingCart">
-    <h1>Hello, world!</h1>
+
+  <body class="page-CheckoutReviewOrder">
+    <!-- HEADER --> 
+ 
+    <header class="page-header py-3">
+        <div class="container">
+            <div class="row flex-nowrap justify-content-between align-items-center">
+              <div class="col-4 pt-1">
+                  <a href="Account.html" class="page-headerAccountLink">
+                      <img src="Assets/images/account-icon.svg" class="page-headerAccount-icon" alt="Account Icon">
+                      <p class="page-headerIconText">Account</p>
+                  </a>
+              </div>
+              <div class="col-6 text-center page-headerLogo">
+                  <a href="index.html">
+                      <img src="Assets/images/hebezLogo.svg" class="page-headerLogo" alt="HEB ez Logo">
+                  </a> 
+              </div>
+              <div class="col-4 pt-1">
+                <a href="ShoppingCart.html" class="page-headerCartLink">
+                    <img src="Assets/images/cartEmpty-icon.svg" class="page-headerCart-icon" alt="Cart Icon">
+                    <p class="page-headerIconText text-center">Cart</p>
+                </a> 
+              </div>
+            </div>
+        </div>
+            <div class="container headerForm">
+              <div class="row">
+                <div class="col-md-auto searchForm">
+                  <form class="form-inline mt-2 mt-md-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <button type="button" class="btn btn-success headerButton">Search</button>
+                  </form>
+                </div>
+                <div class="col-md-auto locationForm">
+                    <form class="form-inline mt-2 mt-md-0">
+                      <input class="form-control mr-sm-2" type="text" placeholder="Pickup Location" aria-label="Search">
+                      <button type="button" class="btn btn-success headerButton">Search</button>
+                    </form>
+                  </div>
+              </div>
+            </div>
+    </header>
+
+<!-- PAGE TITLE -->
+
+      <h1 class="text-center" style="margin-bottom: 40px; margin-top: 40px;">Review Order</h1>
+        <div class="container">
+            <div class="col-md-2">
+              <h5>Items (3)</h5>
+            </div>
+            <!-- <div class="col-md-auto" style="padding-left: 15px; padding-right: 15px;">
+              <div class="row">
+                  <h3><img src="Assets/Images/Icons/editicon.jpg" class="editOrder" alt="Edit Icon"></h3>
+                  <label style="margin-top: auto;">(Edit)</label>
+              </div>
+            </div> -->
+        </div>
+
+
+        <div class="container">
+    
+
+<!-- Meal Item Card -->   
+
+<div class="card mb-3 mx-auto">
+    <div class="container" style="align-items: center;">
+      <div class="row">
+        <div class="col-auto carditem">
+        <img src="Assets/Images/products/Meal.jpg" class="card-img bread" style="margin-left:20px; max-width: 194.5px;" alt="H-E-B Meal Scratch Made Garlic Bread" style="margin-left: 50px;">
+        </div>
+        <div class="col-auto">
+          <div class="card-body carditem">
+          <h4 class="card-title col d-flex align-left" style="padding-left: 0px;">H-E-B Meal Strip Steak<br> w/ Asparagus and Potatoes</h4>
+          <div class="custom-control custom-checkbox col d-flex align-left">
+            <input class="custom-control-input" type="checkbox" value="" id="defaultChecked2" checked>
+            <label class="custom-control-label" for="defaultChecked2">
+              Allow Substitutions
+            </label>
+          </div>
+          </div>
+        </div>
+        <div class="col-auto carditem qty">
+          <p class="card-text col d-flex">$11.99</p>
+          <p class="card-text col d-flex">Qty: 1</p>
+        </div>
+        <div class="col-auto" style="padding-left: 0px">
+            <img src="Assets/Images/Icons/xicon.jpg" class="editOrder">
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- END: Meal Item Card -->  
+
+<!-- Bread Item Card -->   
+
+<div class="card mb-3 mx-auto">
+  <div class="container" style="align-items: center;">
+    <div class="row">
+      <div class="col-auto carditem">
+      <img src="Assets/Images/products/garlic-bread.jpg" class="card-img bread" style="margin-left:20px; max-width: 194.5px;" alt="H-E-B Meal Scratch Made Garlic Bread" style="margin-left: 50px;">
+      </div>
+      <div class="col-auto">
+        <div class="card-body carditem">
+        <h4 class="card-title col d-flex align-left" style="padding-left: 0px;">H-E-B Scratch Made Garlic Bread</h4>
+        <div class="custom-control custom-checkbox">
+          <input class="custom-control-input" type="checkbox" value="" id="defaultChecked2" checked>
+          <label class="custom-control-label" for="defaultChecked2">
+            Allow Substitutions
+          </label>
+        </div>
+        </div>
+      </div>
+      <div class="col-auto carditem qty">
+        <p class="card-text col d-flex">$1.98</p>
+        <p class="card-text col d-flex">Qty: 1</p>
+      </div>
+      <div class="col-auto" style="padding-left: 0px">
+          <img src="Assets/Images/Icons/xicon.jpg" class="editOrder">
+        </div>
+    </div>
+  </div>
+</div>
+ 
+ <!-- END: Bread Item Card -->  
+
+ 
+<!-- Wine Item Card -->  
+
+<div class="card mb-3 mx-auto" style="margin-bottom: 40px!important;">
+    <div class="container" style="align-items: center;">
+      <div class="row">
+        <div class="col-auto carditem" style="margin-left:20px; max-width: 194.5px; margin-left: 82px; margin-right: 82px;">
+          <img src="Assets/Images/products/wine.jpg" class="card-img wine"  alt="Noble Vines 337 Cabernet Sauvignon">
+        </div>
+        <div class="col-auto">
+          <div class="card-body carditem">
+          <h4 class="card-title col d-flex align-left" style="padding-left: 0px;">Noble Vines 337 Cabernet Sauvignon</h4>
+          <div class="custom-control custom-checkbox">
+            <input class="custom-control-input" type="checkbox" value="" id="defaultChecked2" checked>
+            <label class="custom-control-label" for="defaultChecked2">
+              Allow Substitutions
+            </label>
+          </div>
+          </div>
+        </div>
+        <div class="col-auto carditem qty">
+          <p class="card-text col d-flex">$11.98</p>
+          <p class="card-text col d-flex">Qty: 1</p>
+        </div>
+        <div class="col-auto" style="padding-left: 0px">
+            <img src="Assets/Images/Icons/xicon.jpg" class="editOrder">
+          </div>
+      </div>
+    </div>
+  </div>
+
+ 
+ <!-- END: Wine Item Card --> 
+
+
+  <div class="row">
+    <div class="form-group col-md-auto button1" style="margin-bottom: 40px;">
+      <button onclick="window.location='https://cchite.github.io/HEB-ez/CheckoutOrderDetails.html';" type="submit" class="btn btn-primary btn-block" data-toggle="button" aria-pressed="false" autocomplete="off">Continue to Checkout
+      </button>
+    </div>
+  </div>
+
+
+</div>
+     <!-- Footer -->
+<footer class="page-footer font-small stylish-color-dark pt-4">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-4 mx-auto">
+  
+          <!-- Content -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4 footerHead">Company</h5>
+          <ul class="list-unstyled footerLinks">
+              <li>
+                <a href="#!" class="footerLinks">About Us</a>
+              </li>
+              <li>
+                <a href="#!" class="footerLinks">Hub Locations</a>
+              </li>
+              <li>
+                <a href="#!" class="footerLinks">Gift Cards</a>
+              </li>
+              <li>
+                <a href="#!" class="footerLinks">Careers</a>
+              </li>
+            </ul>
+  
+        </div>
+        
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+  
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4 footerHead">Customer Service</h5>
+  
+          <ul class="list-unstyled footerLinks">
+            <li>
+              <a href="#!" class="footerLinks">Contact Us</a>
+            </li>
+            <li>
+              <a href="#!" class="footerLinks">Feedback</a>
+            </li>
+            <li>
+              <a href="#!" class="footerLinks">Help and FAQ</a>
+            </li>
+            <li>
+              <a href="#!" class="footerLinks">Refund Policy</a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+
+  
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item socialIcon">
+        <a class="btn-floating btn-fb mx-1">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+      <li class="list-inline-item socialIcon">
+        <a class="btn-floating btn-tw mx-1">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      <li class="list-inline-item socialIcon">
+        <a class="btn-floating btn-dribbble mx-1">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </li>
+    </ul>
+    <!-- Social buttons -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">
+      © 2019 Copyright: The HEEBs
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
