@@ -345,10 +345,17 @@ p {
 
 
 /* <!-- CHECKOUT CODING --> */
-.page-CheckoutOrderDetails .stepOne h2 {
+.page-CheckoutOrderDetailsCardAdded .stepOne h2 {
     color:#DC2A27;
 }
 
+.page-CheckoutOrderDetailsCardAdded p.card-text-sm{
+    font-size: 11px;
+}
+
+.page-CheckoutOrderDetailsCardAdded .btn-link {
+    color:#007bff;
+}
 
 
 
