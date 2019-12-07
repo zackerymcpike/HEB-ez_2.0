@@ -343,6 +343,56 @@ p {
 }
 /* <!-- END ONBOARDING CODING --> */
 
+/* <!-- SHOPPING CART CODE --> */
+.page-CheckoutReviewOrder .review{
+    align-items: center;
+    flex-direction: row;
+    padding: 15px 0 15px 15px;
+}
+
+.page-CheckoutReviewOrder .editOrder{
+    max-width: 30px;
+}
+
+.page-CheckoutReviewOrder .wine {
+    max-height: 150px; max-width: 50px;
+}
+
+.page-CheckoutReviewOrder h1.text-center{
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+}
+
+.page-CheckoutReviewOrder h5.card-title.col.d-flex.align-left{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+}
+
+.page-CheckoutReviewOrder p.card-text.col.d-flex.align-left{
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 22px;
+}
+.page-CheckoutReviewOrder h5.align-left{
+    font-family:'Roboto', sans-serif;
+    font-size: 22px;
+}
+
+.page-CheckoutReviewOrder .carditem1{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.page-CheckoutReviewOrder .qty {
+    margin-left: auto;
+}
+
+.page-CheckoutReviewOrder .button11 {
+    display: flex;
+    align-items: flex-end;
+    margin-left: auto;
+}
+
+
 
 /* <!-- CHECKOUT CODING --> */
 .page-CheckoutOrderDetailsCardAdded .stepOne h2 {
