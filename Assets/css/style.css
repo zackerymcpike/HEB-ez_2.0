@@ -357,6 +357,9 @@ p {
     color:#007bff;
 }
 
+.page-CheckoutOrderDetailsCardAdded .card-img {
+    max-width: 40px;
+
 
 
 /* <!-- CHECKOUT CONFIRMATION CODE --> */
