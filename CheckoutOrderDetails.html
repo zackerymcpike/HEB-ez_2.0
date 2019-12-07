@@ -9,8 +9,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="Assets/css/Catherinestyle.css">
+    <!-- <link rel="stylesheet" href="Assets/css/Catherinestyle.css"> -->
     <link rel="stylesheet" href="Assets/css/style.css">
+    <link rel="stylesheet" href="Assets/css/Catherinestyle.css">
 
     <!-- Font Awesome JS -->
     <script src="https://kit.fontawesome.com/e6c17cc9f9.js" crossorigin="anonymous"></script>
@@ -90,7 +91,8 @@
 <!-- Step One Card -->
 <div class="stepOne container mx-auto">
 <h3>1) Confirm Pickup Details</h3>
-    <div class="card" style="margin-bottom:20px; margin-right: auto; margin-left:auto">
+    <div class="card" style="margin-bottom:20px; margin-right: auto; margin-left:auto; align-items: center;
+    flex-direction: row;">
        <!-- <div class="row">
           <img src="Assets/Images/Icons/mapIcon.svg" class="card-img" alt="Map Icon" style="margin-left: 30px;">
           <img src="Assets/Images/Icons/timeIcon.svg" class="card-img" alt="Time Icon" style="margin-left: 30px;">
@@ -98,15 +100,15 @@
           <div class="col-md-9">
             <div class="card-body">
               <div class="row  align-items-center" style="height: 75px;">
-              <div class= "card-title col" style="margin-bottom: 0px;">
+                <div class= "card-title col" style="margin-bottom: 0px;">
             <h4 style="padding-left: 30px; margin-bottom: 0px;">Downtown Hub</h4>
-          </div>
+                </div>
           <div class="col">
             <p style="margin-bottom: 0px;">123 Anywhere Street, Austin, TX 78701</p>
           </div>
-        </div>
-        </div>
-        </div>
+              </div>
+            </div>
+          </div>
         <div class="getDirections col d-flex justify-content-center">
             <button type="button" class="btn btn-outline-danger">Get Directions</button>
           </div>
@@ -140,7 +142,7 @@
 
         <div class="card" style="margin-bottom:20px; margin-right: auto;margin-left:auto">
               <div class="col">
-                    <div class="card-body" style="padding-bottom: 0px;">
+                    <div class="card-body">
                       <div class="row">
                           <div class= "card-title col-3">
                               <h4 style="padding-left: 30px;">Pickup Contact</h4>
@@ -154,61 +156,63 @@
                           <div class="col-2" style="padding-left: 0px; padding-right: 0px;">
                               <p style="margin-bottom: 0px; margin-top: 10px;">Phone:(512)555-1000</p>
                           </div>
-                          </div>
-                      </div>
-                <div class="row">
-                    <div class="col-4"></div>
-                    <div class="col-6">
-                        <div class="custom-control custom-checkbox" style="margin-bottom: 10px; padding-left: 0px;">
-                          <input class="custom-control-input" type="checkbox" value="" id="defaultChecked2" checked>
-                          <label class="custom-control-label" for="defaultChecked2">Opt in for text alerts for your H-E-B ez order
-                          </label>
                         </div>
-                    </div> 
-                    <div class="col-2"></div>
-              </div>
-                    <div class="row">
-                        <div class="col-3"></div>
-                        <div class="col-6">
-                           <p class="card-text-sm">By entering my mobile phone number, I consent to receive EZ order alerts via text message pursuant to the Full Terms and Privacy Policy. Message & data rates may apply. Message frequency may vary. Text STOP to 99147 to cancel.  Text HELP to 99147 or call Customer Service at 1-855-803-0611.</p>
-                        </div>
-                        <div class="col-3"></div>
                     </div>
+                      <div class="row">
+                          <div class="col-4"></div>
+                          <div class="col-6">
+                              <div class="custom-control custom-checkbox" style="margin-bottom: 10px; padding-left: 0px;">
+                                <input class="custom-control-input" type="checkbox" value="" id="defaultChecked2" checked>
+                                <label class="custom-control-label" for="defaultChecked2">Opt in for text alerts for your H-E-B ez order
+                                </label>
+                              </div>
+                          </div> 
+                          <div class="col-2"></div>
+                      </div>
+                      <div class="row">
+                          <div class="col-3"></div>
+                          <div class="col-6">
+                            <p class="card-text-sm">By entering my mobile phone number, I consent to receive EZ order alerts via text message pursuant to the Full Terms and Privacy Policy. Message & data rates may apply. Message frequency may vary. Text STOP to 99147 to cancel.  Text HELP to 99147 or call Customer Service at 1-855-803-0611.</p>
+                          </div>
+                          <div class="col-3"></div>
+                      </div>
 
 
-            </div>   
+              </div>   
         </div>
-        </div>
-        </div>
-        </div>
-  </div>
+ </div>
+       
 <!-- END: Step One Card -->  
 
 <!-- Step Two Card -->
 
-<div class="card mx-auto" style="max-width: 700px;" >
+<div class="container">
+
+<div class="mb-3 mx-auto" style="max-width: 700px;" >
        
       <div class="accordion" id="accordionExample" >
         <div class="card">
           <div class="card-header" id="headingOne">
             <div class="row" style="margin: auto;align-items: center;justify-content: center;">
-            <div class="col-xs-0 icon addcard">
-              <img src="Assets/Images/Icons/creditcard.jpg" class="card-img mx-auto" alt="Credit Card Icon">
+              <div class="col-xs-0 icon addcard">
+                <img src="Assets/Images/Icons/creditcard.jpg" class="card-img mx-auto" alt="Credit Card Icon">
+              </div>
+                <h1 class="mb-0 col-auto addcard">
+                  <button style="font-size: 2rem; " class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" >
+                    Add New Card
+                  </button>
+                </h1>
+              <div class="col-auto addcard">
+                  <small>We accept all major credit & debit cards</small>
+              </div>
             </div>
-            <h1 class="mb-0 col-auto addcard">
-              <button style="font-size: 2rem; " class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" >
-                Add New Card
-              </button>
-            </h1>
-            <div class="col-auto addcard">
-                <small>We accept all major credit & debit cards</small>
-            </div>
-          </div>
           </div>
         </div>
     
-        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample" style="margin-top: 40px;">
-          <div class="card card1 mx-auto" style="width: 25rem; margin-bottom: 50px">
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample" style="; background-clip: border-box;
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: .25rem;">
+          <div class="card card1 mx-auto" style="width: 25rem; margin-bottom: 50px; margin-top: 50px;">
             <div class="card-body col d-flex justify-content-center">
                 <form>
                     <div>
@@ -290,166 +294,145 @@
         </div>
       </div>
     </div>
-  
-
-
-  <!-- PAGE TITLE -->
-
-  <h1 class="text-center" style="margin-bottom: 40px; margin-top: 40px;">Review Order</h1>
-  <div class="container">
-      <div class="col-md-2">
-        <h5>Items (3)</h5>
-      </div>
-      <!-- <div class="col-md-auto" style="padding-left: 15px; padding-right: 15px;">
-        <div class="row">
-            <h3><img src="Assets/Images/Icons/editicon.jpg" class="editOrder" alt="Edit Icon"></h3>
-            <label style="margin-top: auto;">(Edit)</label>
-        </div>
-      </div> -->
   </div>
 
 
-  <div class="container">
+
+
+    <!-- PAGE TITLE -->
+
+    <h1 class="text-center" style="margin-bottom: 40px; margin-top: 40px;">Review Order</h1>
+    <div class="container">
+        <div class="col-md-2">
+          <h5>Items (3)</h5>
+        </div>
+        <!-- <div class="col-md-auto" style="padding-left: 15px; padding-right: 15px;">
+          <div class="row">
+              <h3><img src="Assets/Images/Icons/editicon.jpg" class="editOrder" alt="Edit Icon"></h3>
+              <label style="margin-top: auto;">(Edit)</label>
+          </div>
+        </div> -->
+    </div>
+
+
+    <div class="container">
 
 
 <!-- Meal Item Card -->   
 
-<div class="card mb-3 mx-auto">
-<div class="container" style="align-items: center;">
-<div class="row">
-  <div class="col-auto carditem">
-  <img src="Assets/Images/products/Meal.jpg" class="card-img bread" style="margin-left:20px; max-width: 194.5px;" alt="H-E-B Meal Scratch Made Garlic Bread" style="margin-left: 50px;">
-  </div>
-  <div class="col-auto">
-    <div class="card-body carditem">
-    <h4 class="card-title col d-flex align-left" style="padding-left: 0px;">H-E-B Meal Strip Steak<br> w/ Asparagus and Potatoes</h4>
-    <div class="custom-control custom-checkbox col d-flex align-left">
-      <input class="custom-control-input" type="checkbox" value="" id="defaultChecked2" checked>
-      <label class="custom-control-label" for="defaultChecked2">
-        Allow Substitutions
-      </label>
-    </div>
-    </div>
-  </div>
-  <div class="col-auto carditem qty">
-    <p class="card-text col d-flex">$11.99</p>
-    <p class="card-text col d-flex">Qty: 1</p>
-  </div>
-  <div class="col-auto" style="padding-left: 0px">
-      <img src="Assets/Images/Icons/xicon.jpg" class="editOrder">
-    </div>
-</div>
-</div>
-</div>
+          <div class="card mb-3 mx-auto">
+          <div class="container" style="align-items: center;">
+            <div class="row">
+              <div class="col-auto carditem1">
+              <img src="Assets/Images/products/Meal.jpg" class="card-img bread" style="margin-left:20px; max-width: 194.5px;" alt="H-E-B Meal Scratch Made Garlic Bread" style="margin-left: 50px;">
+              </div>
+              <div class="col-auto">
+                <div class="carditem1" style="flex: 1 1 auto; padding: 1.25rem;">
+                <h4 class="card-title col d-flex align-left" style="padding-left: 0px;">H-E-B Meal Strip Steak<br> w/ Asparagus and Potatoes</h4>
+                <div class="custom-control custom-checkbox col d-flex align-left">
+                  <input class="custom-control-input" type="checkbox" value="" id="defaultChecked2" checked>
+                  <label class="custom-control-label" for="defaultChecked2">
+                    Allow Substitutions
+                  </label>
+                </div>
+                </div>
+              </div>
+              <div class="col-auto carditem1" style="margin-left: auto;">
+                <p class=" col d-flex">$11.99</p>
+                <p class=" col d-flex">Qty: 1</p>
+              </div>
+              <div class="col-auto" style="padding-left: 0px">
+                  <img src="Assets/Images/Icons/xicon.jpg" style="max-width: 30px;">
+                </div>
+            </div>
+          </div>
+          </div>
 
 
 <!-- END: Meal Item Card -->  
 
 <!-- Bread Item Card -->   
 
-<div class="card mb-3 mx-auto">
-<div class="container" style="align-items: center;">
-<div class="row">
-<div class="col-auto carditem">
-<img src="Assets/Images/products/garlic-bread.jpg" class="card-img bread" style="margin-left:20px; max-width: 194.5px;" alt="H-E-B Meal Scratch Made Garlic Bread" style="margin-left: 50px;">
-</div>
-<div class="col-auto">
-  <div class="card-body carditem">
-  <h4 class="card-title col d-flex align-left" style="padding-left: 0px;">H-E-B Scratch Made Garlic Bread</h4>
-  <div class="custom-control custom-checkbox">
-    <input class="custom-control-input" type="checkbox" value="" id="defaultChecked2" checked>
-    <label class="custom-control-label" for="defaultChecked2">
-      Allow Substitutions
-    </label>
-  </div>
-  </div>
-</div>
-<div class="col-auto carditem qty">
-  <p class="card-text col d-flex">$1.98</p>
-  <p class="card-text col d-flex">Qty: 1</p>
-</div>
-<div class="col-auto" style="padding-left: 0px">
-    <img src="Assets/Images/Icons/xicon.jpg" class="editOrder">
-  </div>
-</div>
-</div>
-</div>
+          <div class="card mb-3 mx-auto">
+          <div class="container" style="align-items: center;">
+          <div class="row">
+            <div class="col-auto carditem">
+            <img src="Assets/Images/products/garlic-bread.jpg" class="card-img bread" style="margin-left:20px; max-width: 194.5px;" alt="H-E-B Meal Scratch Made Garlic Bread" style="margin-left: 50px;">
+            </div>
+            <div class="col-auto">
+              <div class="carditem" style="flex: 1 1 auto; padding: 1.25rem;">
+              <h4 class="card-title col d-flex align-left" style="padding-left: 0px;">H-E-B Scratch Made Garlic Bread</h4>
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" value="" id="defaultChecked2" checked>
+                <label class="custom-control-label" for="defaultChecked2">
+                  Allow Substitutions
+                </label>
+              </div>
+              </div>
+            </div>
+            <div class="col-auto carditem" style="margin-left: auto;">
+              <p class="col d-flex">$1.98</p>
+              <p class="col d-flex">Qty: 1</p>
+            </div>
+            <div class="col-auto" style="padding-left: 0px">
+                <img src="Assets/Images/Icons/xicon.jpg" style="max-width: 30px;">
+              </div>
+          </div>
+          </div>
+          </div>
 
 <!-- END: Bread Item Card -->  
 
 
 <!-- Wine Item Card -->  
 
-<div class="card mb-3 mx-auto" style="margin-bottom: 40px!important;">
-<div class="container" style="align-items: center;">
-<div class="row">
-  <div class="col-auto carditem" style="margin-left:20px; max-width: 194.5px; margin-left: 82px; margin-right: 82px;">
-    <img src="Assets/Images/products/wine.jpg" class="card-img wine"  alt="Noble Vines 337 Cabernet Sauvignon">
-  </div>
-  <div class="col-auto">
-    <div class="card-body carditem">
-    <h4 class="card-title col d-flex align-left" style="padding-left: 0px;">Noble Vines 337 Cabernet Sauvignon</h4>
-    <div class="custom-control custom-checkbox">
-      <input class="custom-control-input" type="checkbox" value="" id="defaultChecked2" checked>
-      <label class="custom-control-label" for="defaultChecked2">
-        Allow Substitutions
-      </label>
-    </div>
-    </div>
-  </div>
-  <div class="col-auto carditem qty">
-    <p class="card-text col d-flex">$11.98</p>
-    <p class="card-text col d-flex">Qty: 1</p>
-  </div>
-  <div class="col-auto" style="padding-left: 0px">
-      <img src="Assets/Images/Icons/xicon.jpg" class="editOrder">
-    </div>
-</div>
-</div>
-</div>
+          <div class="card mb-3 mx-auto" style="margin-bottom: 40px!important;">
+          <div class="container" style="align-items: center;">
+            <div class="row">
+              <div class="col-auto carditem" style="margin-left:20px; max-width: 194.5px; margin-left: 82px; margin-right: 82px;">
+                <img src="Assets/Images/products/wine.jpg" class="card-img wine1"  alt="Noble Vines 337 Cabernet Sauvignon">
+              </div>
+              <div class="col-auto">
+                <div class="carditem" style="flex: 1 1 auto; padding: 1.25rem;">
+                <h4 class="card-title col d-flex align-left" style="padding-left: 0px;">Noble Vines 337 Cabernet Sauvignon</h4>
+                <div class="custom-control custom-checkbox">
+                  <input class="custom-control-input" type="checkbox" value="" id="defaultChecked2" checked>
+                  <label class="custom-control-label" for="defaultChecked2">
+                    Allow Substitutions
+                  </label>
+                </div>
+                </div>
+              </div>
+              <div class="col-auto carditem" style="margin-left: auto;">
+                <p class=" col d-flex">$11.98</p>
+                <p class=" col d-flex">Qty: 1</p>
+              </div>
+              <div class="col-auto" style="padding-left: 0px">
+                  <img src="Assets/Images/Icons/xicon.jpg" style="max-width: 30px;">
+                </div>
+            </div>
+          </div>
+          </div>
 
 
 <!-- END: Wine Item Card --> 
 
 
-<div class="row">
-    <div class="form-group col-md-auto button1" style="margin-bottom: 40px;">
-      <button onclick="window.location='https://cchite.github.io/HEB-ez/CheckoutOrderConfirmation.html';" type="submit" class="btn btn-primary btn-block" data-toggle="button" aria-pressed="false" autocomplete="off">Continue to Checkout
-      </button>
-    </div>
-  </div>
+          <div class="row">
+          <div class="form-group col-md-auto button11" style="margin-bottom: 40px;">
+            <button onclick="window.location='https://cchite.github.io/HEB-ez/CheckoutOrderDetails.html';" type="submit" class="btn btn-primary btn-block" data-toggle="button" aria-pressed="false" autocomplete="off">Continue to Checkout
+            </button>
+          </div>
+          </div>
+
+
+</div>
+  
 
 
 
-<!-- Checkout Contact Card -->  
 
-<!-- <div class="card mb-3 mx-auto" style="max-width: 700px;">
-       
-    <img src="Assets/Images/Icons/contactIcon.svg" class="card-img" alt="Contact Icon" style="margin-left: 50px;">
- 
-  <div class="col-md-8" style="margin-right: 65px;">
-      <div class="card-body">
-      <h4 class="card-title col d-flex justify-content-center">Pickup Contact</h4>
-      <h5 class="card-title col d-flex justify-content-center" style="margin-bottom: 0px;">Jordan Perez</h5>
-      <p class="card-text col d-flex justify-content-center">Email: Jordan.Perez@gmail.com</p>
-      <p class="card-text col d-flex justify-content-center" style="margin-bottom: 20px;">Phone: 512-555-1000</p>
-      <h5 class="card-title col d-flex justify-content-center">Get text alerts for your H-E-B ez order</h5>
-    </div>
-    <p class="card-text-sm justify-content-center">By entering my mobile phone number, I consent to receive EZ order alerts via text message pursuant to the Full Terms and Privacy Policy. Message & data rates may apply. Message frequency may vary. Text STOP to 99147 to cancel.  Text HELP to 99147 or call Customer Service at 1-855-803-0611.</p>
 
-  </div>
-  </div> -->
-<!-- END Checkout Contact Card -->  
-
-<!-- Next Button --> 
-
-<!-- <div class="float-right" style="margin-right: 250px;">
-<button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
-      Next <i class="fas fa-arrow-right" style="margin-left: 20px;"></i>
-    </button>
-  </div> -->
-
-<!-- END Next Button -->
 
  <!-- Footer -->
  <footer class="page-footer font-small stylish-color-dark pt-4">
