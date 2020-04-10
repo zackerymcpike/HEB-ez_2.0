@@ -138,8 +138,8 @@ p {
 /* <!-- Standard Header --> */
 
 .page-header {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
     padding-left: 50px;
     padding-right: 50px;
     background-color: #03ADC4;
@@ -149,13 +149,13 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 125px;
+    max-width: 100px;
 }
 
 .page-headerAccountLink {
     display: inline-block;
     vertical-align: top;
-    float: left;
+    /* float: left; */
     width: 50px;
     padding-top: 10px;
 }
@@ -206,12 +206,12 @@ p {
 
 .searchForm {
     margin-right: auto;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
 .locationForm {
     margin-left: auto;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }  
 
 .pickupText {
@@ -223,11 +223,11 @@ p {
 }
 
 
-.locationForm {
-    /* display: inline;
+/* .locationForm {
+    display: inline;
     position: absolute;
-    right: 0px; */
-}
+    right: 0px;
+} */
 
 .pickupText {
     color: white;
@@ -409,6 +409,7 @@ p {
 
 .page-CheckoutOrderDetailsCardAdded .card-img {
     max-width: 40px;
+}
 
 
 
