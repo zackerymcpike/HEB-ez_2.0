@@ -251,6 +251,7 @@ p {
 
 .navbar {
     font-family: roboto;
+    padding-left: 50px;
 }
 
 .a:hover {
