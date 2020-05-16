@@ -117,7 +117,9 @@ p {
 
 .foodItemRow {
     margin-left: 50px;
-    margin-top: -20px;    
+    margin-bottom: 50px;
+    margin-top: -20px; 
+    justify-content: space-between;   
 }
 
 .foodCard {
